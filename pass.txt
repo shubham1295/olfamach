@@ -7,3 +7,8 @@ Shubham@123
 https://app.mailjet.com/
 hananev228@jo6s.com
 Shubham@123
+
+API Key
+22bebd869ae748886e05c5b3c806fbcc
+Secret Key
+5239ddd1735d701c7c5526820e87a687
