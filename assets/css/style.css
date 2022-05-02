@@ -5963,6 +5963,9 @@ ul > li > a:hover {
 .services-header img {
   width: auto;
 }
+.list {
+  text-align: left;
+}
 .list ul {
   list-style-type: none;
   margin-left: 10px;
