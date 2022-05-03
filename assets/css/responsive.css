@@ -350,9 +350,6 @@
 	
 	/*============ Header ==================*/
 	
-	.header-style-2 .bg-header-top{
-		display: none;
-	}
 	.show-res-logo {
 		display: inline-block;
 		padding-top: 6px;

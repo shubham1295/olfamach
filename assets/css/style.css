@@ -34,10 +34,35 @@
 -----------------------------------------------*/
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+.row {
+  display: flex; /* equal height of the children */
+}
 
+.col {
+  flex: 1; /* additionally, equal width */
+  
+  padding: 1em;
+  
+}
 /*======================
 	Start Reset css
 ======================================================*/
+.mobile {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .mobile {
+    display: block;
+  }
+}
+.web {
+  display: block;
+}
+@media screen and (max-width: 600px) {
+  .web {
+    display: none;
+  }
+}
 
 html {
   font-family: "Poppins", sans-serif;
@@ -1311,7 +1336,7 @@ section {
     margin: 0;
     border: 0;
     border-radius: 0;
-    -webkit-transition: all.3s ease-in-out;
+  
     transition: all 0.3s ease-in-out;
     background: #53a92c;
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
